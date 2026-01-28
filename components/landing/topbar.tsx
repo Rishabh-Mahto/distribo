@@ -12,11 +12,11 @@ export default function Topbar() {
             <span className="font-bold text-lg text-foreground">Distribo</span>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="/auth/login" className="text-sm font-medium text-foreground hover:text-primary transition">
+            <Link href="/login" className="text-sm font-medium text-foreground hover:text-primary transition">
               Sign In
             </Link>
             <Button asChild size="sm">
-              <Link href="/auth/signup">Get Started</Link>
+              <Link href="/signup">Get Started</Link>
             </Button>
           </div>
         </div>

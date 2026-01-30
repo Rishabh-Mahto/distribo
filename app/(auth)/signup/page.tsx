@@ -110,11 +110,11 @@ export default function SignupPage() {
             <input type="checkbox" id="terms" className="rounded border-border" />
             <label htmlFor="terms" className="text-sm text-muted-foreground">
               I agree to the{' '}
-              <Link href="#" className="text-gray-700 hover:underline">
+              <Link href="#" className="text-gray-700 font-semibold hover:underline">
                 Terms of Service
               </Link>{' '}
               and{' '}
-              <Link href="#" className="text-gray-700 hover:underline">
+              <Link href="#" className="text-gray-700 font-semibold hover:underline">
                 Privacy Policy
               </Link>
             </label>
